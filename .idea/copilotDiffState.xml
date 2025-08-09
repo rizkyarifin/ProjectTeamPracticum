@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/README.md">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/README.md" />
+              <option name="originalContent" value="# Project Praktikum 3 - Struktur Data (Tree, Hash Table, Graph)&#10;&#10;## Struktur Direktori&#10;&#10;```&#10;src/&#10;  kelompok/&#10;    bst/&#10;      BST.java&#10;      BSTNode.java&#10;    expressiontree/&#10;      ExpressionTree.java&#10;      ExpressionTreeNode.java&#10;    hashtable/&#10;      Mahasiswa.java&#10;      MahasiswaHashTable.java&#10;    graph/&#10;      Graph.java&#10;      Dijkstra.java&#10;    util/&#10;      DataGenerator.java&#10;  Main.java&#10;laporan/&#10;  LaporanTemplate.docx&#10;```&#10;&#10;## Pembagian Tugas&#10;&#10;1. **Anggota 1: Binary Search Tree (BST)**&#10;   - Implementasi BST (insert, search, delete, traversal)&#10;   - File: `BST.java`, `BSTNode.java`&#10;2. **Anggota 2: Expression Tree**&#10;   - Parsing ekspresi, membangun tree, evaluasi ekspresi&#10;   - File: `ExpressionTree.java`, `ExpressionTreeNode.java`&#10;3. **Anggota 3: Hash Table (Data Mahasiswa)**&#10;   - Tambah, cari, hapus mahasiswa menggunakan HashMap&#10;   - File: `Mahasiswa.java`, `MahasiswaHashTable.java`&#10;4. **Anggota 4: Graph &amp; Dijkstra**&#10;   - Tambah simpul/edge, BFS, DFS, Dijkstra&#10;   - File: `Graph.java`, `Dijkstra.java`&#10;5. **Anggota 5: Integrasi, Data Generator, &amp; Laporan**&#10;   - Integrasi semua fitur di `Main.java`, data uji di `DataGenerator.java`, template laporan&#10;&#10;## Petunjuk Pengerjaan&#10;&#10;- Setiap anggota hanya mengedit file sesuai tugasnya.&#10;- Gunakan package sesuai struktur di atas.&#10;- Komit kode dengan komentar yang jelas.&#10;- Setelah selesai, gabungkan semua file, uji program, dan lengkapi laporan.&#10;- Laporan wajib berisi: penjelasan metode, analisis hasil eksperimen, kesimpulan kelebihan &amp; kekurangan struktur data.&#10;&#10;## Kompilasi &amp; Menjalankan Program&#10;&#10;1. Pastikan semua file Java berada di dalam folder `src/kelompok/` sesuai struktur.&#10;2. Jalankan `Main.java` untuk menguji seluruh fitur.&#10;3. Gunakan IDE (IntelliJ IDEA, Eclipse, dsb) atau terminal:&#10;   ```&#10;   javac -d out src/kelompok/**/*.java src/Main.java&#10;   java -cp out Main&#10;   ```&#10;&#10;## Catatan&#10;- Komentar harus jelas di setiap class dan method.&#10;- Gunakan minimal 10-20 data uji.&#10;- Laporan dikumpulkan dalam folder `laporan/`.&#10;&#10;---&#10;&#10;Selamat mengerjakan! Jika ada pertanyaan teknis, diskusikan di grup sebelum menggabungkan hasil akhir.&#10;" />
+              <option name="updatedContent" value="# Project Praktikum 3 - Struktur Data (Tree, Hash Table, Graph)&#10;&#10;## Struktur Direktori&#10;&#10;```&#10;src/&#10;  kelompok/&#10;    bst/&#10;      BST.java&#10;      BSTNode.java&#10;    expressiontree/&#10;      ExpressionTree.java&#10;      ExpressionTreeNode.java&#10;    hashtable/&#10;      Mahasiswa.java&#10;      MahasiswaHashTable.java&#10;    graph/&#10;      Graph.java&#10;      Dijkstra.java&#10;    util/&#10;      DataGenerator.java&#10;  Main.java&#10;laporan/&#10;  LaporanTemplate.docx&#10;```&#10;&#10;## Pembagian Tugas&#10;&#10;1. **Anggota 1: Binary Search Tree (BST)**&#10;   - Implementasi BST (insert, search, delete, traversal)&#10;   - File: `BST.java`, `BSTNode.java`&#10;2. **Anggota 2: Expression Tree**&#10;   - Parsing ekspresi, membangun tree, evaluasi ekspresi&#10;   - File: `ExpressionTree.java`, `ExpressionTreeNode.java`&#10;3. **Anggota 3: Hash Table (Data Mahasiswa)**&#10;   - Tambah, cari, hapus mahasiswa menggunakan HashMap&#10;   - File: `Mahasiswa.java`, `MahasiswaHashTable.java`&#10;4. **Anggota 4: Graph &amp; Dijkstra**&#10;   - Tambah simpul/edge, BFS, DFS, Dijkstra&#10;   - File: `Graph.java`, `Dijkstra.java`&#10;5. **Anggota 5: Integrasi, Data Generator, &amp; Laporan**&#10;   - Integrasi semua fitur di `Main.java`, data uji di `DataGenerator.java`, template laporan&#10;&#10;## Studi Kasus yang Dikerjakan&#10;&#10;- **Anggota 1: Binary Search Tree (BST)**&#10;  - Studi Kasus: Sistem indeks pencarian dalam dokumen.&#10;  - Implementasi: BST digunakan untuk menyimpan dan mencari kata kunci (keyword) beserta posisi/halaman dalam dokumen.&#10;  - File: `BST.java`, `BSTNode.java`&#10;&#10;- **Anggota 2: Expression Tree**&#10;  - Studi Kasus: Ekspresi matematika berbasis Expression Tree.&#10;  - Implementasi: Expression Tree digunakan untuk parsing, membangun tree dari ekspresi matematika, menampilkan tree, dan mengevaluasi hasil ekspresi.&#10;  - File: `ExpressionTree.java`, `ExpressionTreeNode.java`&#10;&#10;- **Anggota 3: Hash Table (Data Mahasiswa)**&#10;  - Studi Kasus: Sistem penyimpanan dan pencarian data mahasiswa menggunakan Hash Table.&#10;  - Implementasi: Hash Table digunakan untuk tambah, cari, dan hapus data mahasiswa berdasarkan NIM.&#10;  - File: `Mahasiswa.java`, `MahasiswaHashTable.java`&#10;&#10;- **Anggota 4: Graph &amp; Dijkstra**&#10;  - Studi Kasus: Simulasi jalur terpendek menggunakan algoritma Dijkstra dalam sistem navigasi.&#10;  - Implementasi: Graph digunakan untuk merepresentasikan peta (lokasi dan jalan), serta mencari jalur terpendek antar lokasi.&#10;  - File: `Graph.java`, `Dijkstra.java`&#10;&#10;- **Anggota 5: Integrasi, Data Generator, &amp; Laporan**&#10;  - Integrasi semua fitur di `Main.java`, data uji di `DataGenerator.java`, template laporan&#10;&#10;## Penyesuaian Struktur Project&#10;&#10;- Setiap package sudah disesuaikan untuk mendukung studi kasus di atas.&#10;- Setiap anggota dapat langsung mengerjakan studi kasus sesuai file dan package yang sudah disiapkan.&#10;- Contoh input/output dan data uji dapat disesuaikan dengan studi kasus pada soal.&#10;&#10;## Petunjuk Pengerjaan&#10;&#10;- Setiap anggota hanya mengedit file sesuai tugasnya.&#10;- Gunakan package sesuai struktur di atas.&#10;- Komit kode dengan komentar yang jelas.&#10;- Setelah selesai, gabungkan semua file, uji program, dan lengkapi laporan.&#10;- Laporan wajib berisi: penjelasan metode, analisis hasil eksperimen, kesimpulan kelebihan &amp; kekurangan struktur data.&#10;&#10;## Kompilasi &amp; Menjalankan Program&#10;&#10;1. Pastikan semua file Java berada di dalam folder `src/kelompok/` sesuai struktur.&#10;2. Jalankan `Main.java` untuk menguji seluruh fitur.&#10;3. Gunakan IDE (IntelliJ IDEA, Eclipse, dsb) atau terminal:&#10;   ```&#10;   javac -d out src/kelompok/**/*.java src/Main.java&#10;   java -cp out Main&#10;   ```&#10;&#10;## Catatan&#10;- Komentar harus jelas di setiap class dan method.&#10;- Gunakan minimal 10-20 data uji.&#10;- Laporan dikumpulkan dalam folder `laporan/`.&#10;&#10;---&#10;&#10;Selamat mengerjakan! Jika ada pertanyaan teknis, diskusikan di grup sebelum menggabungkan hasil akhir." />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/Main.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/Main.java" />
+              <option name="updatedContent" value="import kelompok.bst.BST;&#10;import kelompok.expressiontree.ExpressionTree;&#10;import kelompok.hashtable.MahasiswaHashTable;&#10;import kelompok.graph.Graph;&#10;import kelompok.graph.Dijkstra;&#10;import kelompok.util.DataGenerator;&#10;&#10;/**&#10; * Main class untuk integrasi dan pengujian semua fitur.&#10; *&#10; * Tugas Anggota 5:&#10; * - Integrasikan semua fitur (BST, ExpressionTree, HashTable, Graph) dalam menu CLI sederhana.&#10; * - Panggil DataGenerator untuk generate data uji.&#10; * - Buat contoh penggunaan dan output sesuai soal.&#10; * - Tambahkan komentar pada setiap bagian.&#10; */&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        // TODO: Implementasi menu CLI sederhana untuk mengakses semua fitur&#10;        // TODO: Panggil DataGenerator untuk generate data uji&#10;        // TODO: Tampilkan contoh output sesuai instruksi soal&#10;    }&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/kelompok/bst/BST.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/kelompok/bst/BST.java" />
+              <option name="updatedContent" value="package kelompok.bst;&#10;&#10;/**&#10; * Kelas Binary Search Tree (BST) dengan operasi dasar:&#10; * insert, search, delete, dan traversal (inorder, preorder, postorder).&#10; *&#10; * Tugas Anggota 1:&#10; * - Lengkapi semua method utama BST.&#10; * - Tambahkan komentar pada setiap method.&#10; * - Buat contoh penggunaan di Main.java.&#10; */&#10;public class BST {&#10;    private BSTNode root;&#10;&#10;    public BST() {&#10;        root = null;&#10;    }&#10;&#10;    // TODO: Implementasi method insert(int data)&#10;    // TODO: Implementasi method search(int data)&#10;    // TODO: Implementasi method delete(int data)&#10;    // TODO: Implementasi traversal inorder, preorder, postorder&#10;&#10;    // Tambahkan method lain jika diperlukan&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/kelompok/bst/BSTNode.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/kelompok/bst/BSTNode.java" />
+              <option name="updatedContent" value="package kelompok.bst;&#10;&#10;/**&#10; * Kelas node untuk Binary Search Tree (BST).&#10; * Setiap node menyimpan data bertipe integer dan referensi ke anak kiri dan kanan.&#10; */&#10;public class BSTNode {&#10;    public int data;&#10;    public BSTNode left, right;&#10;&#10;    public BSTNode(int data) {&#10;        this.data = data;&#10;        this.left = null;&#10;        this.right = null;&#10;    }&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/kelompok/expressiontree/ExpressionTree.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/kelompok/expressiontree/ExpressionTree.java" />
+              <option name="updatedContent" value="package kelompok.expressiontree;&#10;&#10;/**&#10; * Kelas ExpressionTree untuk membangun dan mengevaluasi expression tree dari ekspresi matematika.&#10; *&#10; * Tugas Anggota 2:&#10; * - Implementasikan parsing ekspresi, membangun tree, evaluasi ekspresi, dan traversal inorder.&#10; * - Tambahkan komentar pada setiap method.&#10; * - Buat contoh penggunaan di Main.java.&#10; */&#10;public class ExpressionTree {&#10;    private ExpressionTreeNode root;&#10;&#10;    public ExpressionTree() {&#10;        root = null;&#10;    }&#10;&#10;    // TODO: Implementasi method buildTree(String expression)&#10;    // TODO: Implementasi method evaluate()&#10;    // TODO: Implementasi traversal inorder&#10;&#10;    // Tambahkan method lain jika diperlukan&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/kelompok/expressiontree/ExpressionTreeNode.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/kelompok/expressiontree/ExpressionTreeNode.java" />
+              <option name="updatedContent" value="package kelompok.expressiontree;&#10;&#10;/**&#10; * Node untuk Expression Tree.&#10; * Menyimpan data (operator/operand) dan referensi ke anak kiri dan kanan.&#10; */&#10;public class ExpressionTreeNode {&#10;    public String value;&#10;    public ExpressionTreeNode left, right;&#10;&#10;    public ExpressionTreeNode(String value) {&#10;        this.value = value;&#10;        this.left = null;&#10;        this.right = null;&#10;    }&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/kelompok/graph/Dijkstra.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/kelompok/graph/Dijkstra.java" />
+              <option name="updatedContent" value="package kelompok.graph;&#10;&#10;import java.util.*;&#10;&#10;/**&#10; * Kelas Dijkstra untuk menjalankan algoritma Dijkstra pada Graph.&#10; *&#10; * Tugas Anggota 4:&#10; * - Implementasikan method untuk mencari jalur terpendek dari satu node ke node lain.&#10; * - Tambahkan komentar pada setiap method.&#10; * - Buat contoh penggunaan di Main.java.&#10; */&#10;public class Dijkstra {&#10;    // TODO: Implementasi method static dijkstra(Graph graph, String start, String tujuan)&#10;    // Method ini mengembalikan hasil jalur terpendek dan total bobot&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/kelompok/graph/Graph.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/kelompok/graph/Graph.java" />
+              <option name="updatedContent" value="package kelompok.graph;&#10;&#10;import java.util.*;&#10;&#10;/**&#10; * Kelas Graph untuk representasi graf berbasis adjacency list.&#10; * Mendukung penambahan simpul, edge, BFS, DFS, dan Dijkstra.&#10; *&#10; * Tugas Anggota 4:&#10; * - Implementasikan method tambah simpul/edge, BFS, DFS, Dijkstra.&#10; * - Tambahkan komentar pada setiap method.&#10; * - Buat contoh penggunaan di Main.java.&#10; */&#10;public class Graph {&#10;    private Map&lt;String, List&lt;Edge&gt;&gt; adjList;&#10;&#10;    public Graph() {&#10;        adjList = new HashMap&lt;&gt;();&#10;    }&#10;&#10;    // TODO: Implementasi method tambahSimpul(String label)&#10;    // TODO: Implementasi method tambahEdge(String dari, String ke, int bobot)&#10;    // TODO: Implementasi method BFS(String start)&#10;    // TODO: Implementasi method DFS(String start)&#10;    // TODO: Implementasi method dijkstra(String start, String tujuan)&#10;&#10;    // Tambahkan method lain jika diperlukan&#10;&#10;    /**&#10;     * Kelas Edge untuk representasi edge berbobot.&#10;     */&#10;    public static class Edge {&#10;        public String tujuan;&#10;        public int bobot;&#10;        public Edge(String tujuan, int bobot) {&#10;            this.tujuan = tujuan;&#10;            this.bobot = bobot;&#10;        }&#10;    }&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/kelompok/hashtable/Mahasiswa.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/kelompok/hashtable/Mahasiswa.java" />
+              <option name="updatedContent" value="package kelompok.hashtable;&#10;&#10;/**&#10; * Kelas Mahasiswa untuk menyimpan data mahasiswa.&#10; * Berisi NIM, nama, dan IPK.&#10; */&#10;public class Mahasiswa {&#10;    private String nim;&#10;    private String nama;&#10;    private double ipk;&#10;&#10;    public Mahasiswa(String nim, String nama, double ipk) {&#10;        this.nim = nim;&#10;        this.nama = nama;&#10;        this.ipk = ipk;&#10;    }&#10;&#10;    public String getNim() { return nim; }&#10;    public String getNama() { return nama; }&#10;    public double getIpk() { return ipk; }&#10;&#10;    @Override&#10;    public String toString() {&#10;        return &quot;NIM: &quot; + nim + &quot;, Nama: &quot; + nama + &quot;, IPK: &quot; + ipk;&#10;    }&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/kelompok/hashtable/MahasiswaHashTable.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/kelompok/hashtable/MahasiswaHashTable.java" />
+              <option name="updatedContent" value="package kelompok.hashtable;&#10;&#10;import java.util.HashMap;&#10;&#10;/**&#10; * Kelas MahasiswaHashTable untuk menyimpan dan mengelola data mahasiswa menggunakan HashMap.&#10; *&#10; * Tugas Anggota 3:&#10; * - Implementasikan method tambah, cari, hapus mahasiswa.&#10; * - Tambahkan komentar pada setiap method.&#10; * - Buat contoh penggunaan di Main.java.&#10; */&#10;public class MahasiswaHashTable {&#10;    private HashMap&lt;String, Mahasiswa&gt; table;&#10;&#10;    public MahasiswaHashTable() {&#10;        table = new HashMap&lt;&gt;();&#10;    }&#10;&#10;    // TODO: Implementasi method tambahMahasiswa(Mahasiswa mhs)&#10;    // TODO: Implementasi method cariMahasiswa(String nim)&#10;    // TODO: Implementasi method hapusMahasiswa(String nim)&#10;    // TODO: Implementasi method tampilkanSemuaMahasiswa()&#10;&#10;    // Tambahkan method lain jika diperlukan&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/kelompok/util/DataGenerator.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/kelompok/util/DataGenerator.java" />
+              <option name="updatedContent" value="package kelompok.util;&#10;&#10;import kelompok.bst.BST;&#10;import kelompok.hashtable.Mahasiswa;&#10;import kelompok.hashtable.MahasiswaHashTable;&#10;import kelompok.graph.Graph;&#10;&#10;/**&#10; * Kelas DataGenerator untuk membuat data uji otomatis.&#10; *&#10; * Tugas Anggota 5:&#10; * - Implementasikan method untuk generate data uji (10-20 data) untuk BST, HashTable, dan Graph.&#10; * - Data ini digunakan untuk pengujian performa dan demonstrasi fitur.&#10; * - Tambahkan komentar pada setiap method.&#10; */&#10;public class DataGenerator {&#10;    // TODO: Implementasi method generateDataBST(BST bst)&#10;    // TODO: Implementasi method generateDataMahasiswa(MahasiswaHashTable table)&#10;    // TODO: Implementasi method generateDataGraph(Graph graph)&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
