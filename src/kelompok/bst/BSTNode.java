@@ -1,17 +1,22 @@
 package kelompok.bst;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
- * Kelas node untuk Binary Search Tree (BST).
- * Setiap node menyimpan data bertipe integer dan referensi ke anak kiri dan kanan.
+ * Node untuk Binary Search Tree (BST) indeks dokumen.
+ * Setiap node menyimpan kata kunci dan daftar posisi/halaman kemunculan.
  */
 public class BSTNode {
-    public int data;
+    public String keyword;
+    public List<Integer> positions;
     public BSTNode left, right;
 
-    public BSTNode(int data) {
-        this.data = data;
+    public BSTNode(String keyword, int position) {
+        this.keyword = keyword;
+        this.positions = new ArrayList<>();
+        this.positions.add(position);
         this.left = null;
         this.right = null;
     }
 }
-
