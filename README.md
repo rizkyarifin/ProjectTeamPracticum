@@ -26,7 +26,7 @@ laporan/
 
 ## Pembagian Tugas
 
-1. **Anggota 1: Binary Search Tree (BST)**
+1. **Anggota 1: Muhammad Rizky Arifin (Binary Search Tree/BST)**
    - Studi Kasus: Sistem indeks pencarian dalam dokumen.
    - Implementasi: Buat BST untuk menyimpan dan mencari kata kunci (keyword) beserta posisi/halaman dalam dokumen.
    - Fitur yang harus diimplementasikan:
@@ -153,6 +153,18 @@ laporan/
    javac -d out src/kelompok/**/*.java src/Main.java
    java -cp out Main
    ```
+
+## Petunjuk Penggunaan Program BST (Indeks Dokumen)
+
+1. Jalankan aplikasi dengan mengikuti petunjuk kompilasi dan eksekusi di bawah.
+2. Pilih menu "Indeks Dokumen (BST)" pada menu utama.
+3. Gunakan submenu berikut:
+   - Tambah kata kunci: Masukkan kata kunci dan posisi/halaman untuk menambah indeks.
+   - Cari kata kunci: Masukkan kata kunci untuk melihat di halaman mana saja kata tersebut muncul.
+   - Hapus kata kunci: Masukkan kata kunci yang ingin dihapus dari indeks.
+   - Tampilkan seluruh indeks (inorder): Menampilkan seluruh kata kunci beserta daftar halamannya secara terurut.
+4. Kembali ke menu utama dengan memilih opsi "Kembali ke menu utama".
+5. Pilih "Keluar" untuk menutup aplikasi.
 
 ## Catatan
 - Komentar harus jelas di setiap class dan method.

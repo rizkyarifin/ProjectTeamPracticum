@@ -29,7 +29,7 @@ import java.util.List;
  *   - keyword: kata kunci (String)
  *   - positions: daftar posisi/halaman kemunculan (List<Integer>)
  *
- * @author Anggota 1
+ * @author Muhammad Rizky Arifin
  */
 public class BST {
     private BSTNode root;
