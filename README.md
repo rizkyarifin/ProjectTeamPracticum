@@ -27,19 +27,83 @@ laporan/
 ## Pembagian Tugas
 
 1. **Anggota 1: Binary Search Tree (BST)**
-   - Implementasi BST (insert, search, delete, traversal)
+   - Studi Kasus: Sistem indeks pencarian dalam dokumen.
+   - Implementasi: Buat BST untuk menyimpan dan mencari kata kunci (keyword) beserta posisi/halaman dalam dokumen.
+   - Fitur yang harus diimplementasikan:
+     - insert(keyword, posisi/halaman): Menambah kata kunci beserta posisi/halaman ke dalam BST.
+     - search(keyword): Mencari kata kunci dan menampilkan semua posisi/halaman kemunculannya.
+     - delete(keyword): Menghapus kata kunci dari BST.
+     - traversal (inorder, preorder, postorder): Menampilkan seluruh indeks dokumen secara terurut.
+   - Contoh output:
+     - Tambah: Kata 'algoritma' di halaman 3
+     - Cari: Kata 'algoritma' ditemukan di halaman 3, 7
+     - Hapus: Kata 'struktur' dihapus dari indeks
+     - Traversal: Menampilkan seluruh kata kunci beserta daftar halamannya
    - File: `BST.java`, `BSTNode.java`
+   - Catatan: Komentari setiap method dan buat contoh penggunaan di Main.java
+
 2. **Anggota 2: Expression Tree**
-   - Parsing ekspresi, membangun tree, evaluasi ekspresi
+   - Studi Kasus: Ekspresi matematika berbasis Expression Tree.
+   - Implementasi: Buat Expression Tree untuk parsing, membangun tree dari ekspresi matematika, menampilkan tree, dan mengevaluasi hasil ekspresi.
+   - Fitur yang harus diimplementasikan:
+     - buildTree(expression): Membangun expression tree dari string ekspresi matematika (misal: (3 + 5) * 2).
+     - evaluate(): Mengevaluasi hasil ekspresi dari tree yang sudah dibangun.
+     - inorderTraversal(): Menampilkan ekspresi dalam bentuk infix (inorder).
+     - printTree(): Menampilkan struktur tree secara visual (opsional, jika sempat).
+   - Contoh output:
+     - Input: (3 + 5) * 2
+     - Tree:
+           (*)
+          /   \
+        (+)    2
+       /   \
+      3     5
+     - Hasil Evaluasi: 16
    - File: `ExpressionTree.java`, `ExpressionTreeNode.java`
+   - Catatan: Komentari setiap method dan buat contoh penggunaan di Main.java
+
 3. **Anggota 3: Hash Table (Data Mahasiswa)**
-   - Tambah, cari, hapus mahasiswa menggunakan HashMap
+   - Studi Kasus: Sistem penyimpanan dan pencarian data mahasiswa menggunakan Hash Table.
+   - Implementasi: Buat Hash Table (menggunakan HashMap) untuk menyimpan, mencari, dan menghapus data mahasiswa berdasarkan NIM.
+   - Fitur yang harus diimplementasikan:
+     - tambahMahasiswa(nim, nama, ipk): Menambah data mahasiswa ke dalam Hash Table.
+     - cariMahasiswa(nim): Mencari mahasiswa berdasarkan NIM.
+     - hapusMahasiswa(nim): Menghapus data mahasiswa berdasarkan NIM.
+     - tampilkanSemuaMahasiswa(): Menampilkan seluruh data mahasiswa yang tersimpan.
+   - Contoh output:
+     - Tambah: NIM 12345, Nama: Andi, IPK: 3.75
+     - Cari: NIM 12345 ditemukan - Andi, IPK 3.75
+     - Hapus: NIM 12345 dihapus dari data
+     - Tampil: Daftar seluruh mahasiswa
    - File: `Mahasiswa.java`, `MahasiswaHashTable.java`
+   - Catatan: Komentari setiap method dan buat contoh penggunaan di Main.java
+
 4. **Anggota 4: Graph & Dijkstra**
-   - Tambah simpul/edge, BFS, DFS, Dijkstra
+   - Studi Kasus: Simulasi jalur terpendek menggunakan algoritma Dijkstra dalam sistem navigasi.
+   - Implementasi: Buat Graph berbasis adjacency list untuk merepresentasikan peta (lokasi dan jalan), serta algoritma Dijkstra untuk mencari jalur terpendek antar lokasi.
+   - Fitur yang harus diimplementasikan:
+     - tambahSimpul(label): Menambah simpul/lokasi ke dalam graph.
+     - tambahEdge(dari, ke, bobot): Menambah edge/jalan dengan bobot jarak.
+     - BFS(start): Menelusuri graph dengan Breadth-First Search.
+     - DFS(start): Menelusuri graph dengan Depth-First Search.
+     - dijkstra(start, tujuan): Mencari jalur terpendek dari satu lokasi ke lokasi lain.
+   - Contoh output:
+     - Input: Titik awal A, tujuan E
+     - Output: Jalur terpendek ditemukan: A → B → C → E, Jarak total: 12 km
    - File: `Graph.java`, `Dijkstra.java`
+   - Catatan: Komentari setiap method dan buat contoh penggunaan di Main.java
+
 5. **Anggota 5: Integrasi, Data Generator, & Laporan**
-   - Integrasi semua fitur di `Main.java`, data uji di `DataGenerator.java`, template laporan
+   - Studi Kasus: Integrasi seluruh fitur, pembuatan data uji otomatis, dan penyusunan laporan.
+   - Implementasi: Integrasikan seluruh fitur ke dalam Main.java, buat DataGenerator untuk generate data uji (10-20 data), dan siapkan template laporan.
+   - Fitur yang harus diimplementasikan:
+     - Integrasi menu CLI sederhana di Main.java untuk mengakses semua fitur.
+     - DataGenerator: generateDataBST, generateDataMahasiswa, generateDataGraph.
+     - Laporan: Template laporan di folder laporan/.
+   - Contoh output:
+     - Menu utama aplikasi, pengujian semua fitur, dan hasil data uji.
+   - File: `Main.java`, `DataGenerator.java`, `laporan/LaporanTemplate.docx`
+   - Catatan: Komentari setiap bagian integrasi dan dokumentasi
 
 ## Studi Kasus yang Dikerjakan
 
