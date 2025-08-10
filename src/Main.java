@@ -2,6 +2,7 @@ import kelompok.bst.BST;
 import java.util.List;
 import java.util.Scanner;
 import kelompok.expressiontree.ExpressionTree;
+import kelompok.hashtable.Mahasiswa;
 import kelompok.hashtable.MahasiswaHashTable;
 import kelompok.graph.Graph;
 import kelompok.graph.Dijkstra;
@@ -77,8 +78,43 @@ public class Main {
                 // TODO: Tambahkan submenu Expression Tree di sini
                 System.out.println("[Menu Expression Tree belum diimplementasikan]");
             } else if (mainMenu == 3) {
-                // TODO: Tambahkan submenu Hash Table Mahasiswa di sini
-                System.out.println("[Menu Hash Table Mahasiswa belum diimplementasikan]");
+                MahasiswaHashTable mhsTable = new MahasiswaHashTable();
+                while (true) {
+                    System.out.println("\n=== MENU HASH TABLE MAHASISWA ===");
+                    System.out.println("1. Tambah Mahasiswa");
+                    System.out.println("2. Cari Mahasiswa");
+                    System.out.println("3. Hapus Mahasiswa");
+                    System.out.println("4. Tampilkan Semua Mahasiswa");
+                    System.out.println("5. Kembali ke menu utama");
+                    System.out.print("Pilih menu: ");
+                    int pilih = scanner.nextInt();
+                    scanner.nextLine();
+
+                    if (pilih == 1) {
+                        System.out.print("Masukkan NIM: ");
+                        String nim = scanner.nextLine();
+                        System.out.print("Masukkan Nama: ");
+                        String nama = scanner.nextLine();
+                        System.out.print("Masukkan IPK: ");
+                        double ipk = scanner.nextDouble();
+                        scanner.nextLine();
+                        mhsTable.tambahMahasiswa(new Mahasiswa(nim, nama, ipk));
+                    } else if (pilih == 2) {
+                        System.out.print("Masukkan NIM yang dicari: ");
+                        String nim = scanner.nextLine();
+                        mhsTable.cariMahasiswa(nim);
+                    } else if (pilih == 3) {
+                        System.out.print("Masukkan NIM yang dihapus: ");
+                        String nim = scanner.nextLine();
+                        mhsTable.hapusMahasiswa(nim);
+                    } else if (pilih == 4) {
+                        mhsTable.tampilkanSemuaMahasiswa();
+                    } else if (pilih == 5) {
+                        break;
+                    } else {
+                        System.out.println("Pilihan tidak valid.");
+                    }
+                }
             } else if (mainMenu == 4) {
                 // TODO: Tambahkan submenu Graph & Dijkstra di sini
                 System.out.println("[Menu Graph & Dijkstra belum diimplementasikan]");
